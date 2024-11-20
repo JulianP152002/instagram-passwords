@@ -28,9 +28,9 @@ export function Sesion() {
   // };
 
   const links = {
-    url: "../../../public/primary-imgs/getMicrosoft.webp",
+    url: "/public/primary-imgs/getMicrosoft.webp",
     name: "dowloand app in aAppStore",
-    url2: "../../../public/primary-imgs/Googleplay.webp",
+    url2: "/../public/primary-imgs/Googleplay.webp",
     name2: "Googleplay.webp",
   };
 
@@ -77,7 +77,7 @@ export function Sesion() {
         <div className=" m-auto overflow-hidden mb-9 h-[104px]">
           <img
             className=" m-auto"
-            src="../../../public/primary-imgs/title.webp"
+            src="/public/primary-imgs/title.webp"
             alt=""
           />
         </div>
@@ -129,7 +129,7 @@ export function Sesion() {
           <a className=" text-center items-center w-full" href="">
             <img
               className="w-[18px] inline-block relative top-[0.5px] mx-2"
-              src="../../../public/primary-imgs/IconFacebook.svg"
+              src="/public/primary-imgs/IconFacebook.svg"
               alt=""
             />
             <span className="text-nowrap text-center text-sm items-center font-medium text-blue-900">
