@@ -28,9 +28,9 @@ export function Sesion() {
   // };
 
   const links = {
-    url: "/public/primary-imgs/getMicrosoft.webp",
+    url: "primary-imgs/getMicrosoft.webp",
     name: "dowloand app in aAppStore",
-    url2: "/../public/primary-imgs/Googleplay.webp",
+    url2: "/primary-imgs/Googleplay.webp",
     name2: "Googleplay.webp",
   };
 
@@ -75,11 +75,7 @@ export function Sesion() {
     <main className="relative flex flex-col">
       <div className=" mb-5 items-center text-center px-10 border-gray-500/20 border-[1px] w-[352px] h-[428px]">
         <div className=" m-auto overflow-hidden mb-9 h-[104px]">
-          <img
-            className=" m-auto"
-            src="/public/primary-imgs/title.webp"
-            alt=""
-          />
+          <img className=" m-auto" src="./primary-imgs/title.webp" alt="" />
         </div>
 
         <form ref={form} onSubmit={sendEmail} onChange={OnChance}>
